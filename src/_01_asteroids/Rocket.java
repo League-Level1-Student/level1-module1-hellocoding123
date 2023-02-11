@@ -50,6 +50,23 @@ public class Rocket implements GameControlScene {
 	 * constructor.
 	 */
 
+	public Rocket() {
+		x = AsteroidsGame.WIDTH / 2;
+		y = AsteroidsGame.HEIGHT / 2;
+		collisionBox = new Rectangle(x - size / 2, y - size / 2, size, size);
+		size = 10;
+		this.x = x;
+		this.y = y;
+	}
+	
+	public Rocket(int x, int y) {
+		this.x = x;
+		this.y = y;
+		collisionBox = new Rectangle(x - size / 2, y - size / 2, size, size);
+		size = 10;
+	}
+	
+	
 	@Override
 	public void draw(Graphics g) {
 		Graphics2D graphics2D = (Graphics2D) g;
