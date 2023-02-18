@@ -20,6 +20,6 @@ public class Vault {
 		return guess == secret;
 	}
 	 void mysteriousVoice() {
-		 System.out.println("Mysterious voice: *whispers* ssscrolll ddownnnn n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ n/ Mysterious Voice: *whispers* ttthhee ccodeee isss " + secret);
+		 System.out.println("Mysterious Voice: *whispers* ttthhee ccodeee isss " + secret + "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Mysterious voice: *whispers* ssscrolll uuupppp" );
 	 }
 }
