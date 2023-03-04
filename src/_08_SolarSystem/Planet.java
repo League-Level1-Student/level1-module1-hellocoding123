@@ -17,13 +17,14 @@ public class Planet {
 	
     
     public Planet(int diameterPixels, Color color, int distance, int orbitPeriod, int moons) {
-        this.diameter = diameterPixels;
+        this.diameter = diameterPixels/2;
         for(int i = 0; i < moons; i++) {
         	addMoon();
         }
-        this.avgDistFromSun = distance;
+        this.avgDistFromSun = distance/10;
         this.orbitalPeriod = orbitPeriod;
         this.color = color;
+  
     }
 
     public void draw(Graphics g, int numDays) {
@@ -97,7 +98,7 @@ public class Planet {
             int moonY = (int)(Math.sin(angle) * distPlanetToMoon);
             
             g.setColor(moonColor);
-            g.fillOval(planetX - (moonDiameter/2) + moonX, planetY - (moonDiameter/2) + moonY, moonDiameter, moonDiameter);
+            g.fillOval(planetX - (moonDiameter/2) + moonX + 4, planetY - (moonDiameter/2) + moonY + 4, moonDiameter/5, moonDiameter/5);
         }
     }
 }

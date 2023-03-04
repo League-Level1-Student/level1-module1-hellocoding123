@@ -20,7 +20,21 @@ public class TurfWar extends PApplet {
         int leftKey;
         int downKey;
         int rightKey;
+        
+        public Player(int x, int y, int speed, int playerSize, int playerColor, int upKey, int leftKey, int downKey, int rightKey) {
+        	
+        	this.x = x;
+        	this.y = y;
+        	this.speed = speed;
+        	this.playerSize = playerSize;
+        	this.playerColor = playerColor;
+        	this.upKey = upKey;
+        	this.leftKey = leftKey;
+        	this.downKey = downKey;
+        	this.rightKey = rightKey;
+        	this.upKey = upKey;
 
+        }
         /*
          * The member variables below do not need to be initialized in the
          * constructor.
@@ -160,7 +174,7 @@ public class TurfWar extends PApplet {
          */
 
         
-    }
+    
 
     /*
      * 9. Uncomment these methods once you have created and initialized player 1
